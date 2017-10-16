@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<body>
+<h1>修改图书</h1>
+	<form action="/doedit" method="get">
+		<p>
+			书名:
+			<input type="text" name="name" value="<%=name%>">
+		</p>
+		<p>
+			作者：
+			<input type="text" name="author" value="<%=author%>">
+		</p>
+		<p>
+			价格：
+			<input type="text" name="price" value="<%=price%>">
+		</p>
+		<p>
+			<input type="submit" value="submit">
+		</p>
+	</form>
+</body>
+</html>
